@@ -695,7 +695,7 @@ dependencies = [
  "bitflags 2.6.0",
  "cexpr",
  "clang-sys",
- "itertools 0.13.0",
+ "itertools 0.11.0",
  "proc-macro2",
  "quote",
  "regex",
@@ -5956,7 +5956,7 @@ dependencies = [
 [[package]]
 name = "reedline"
 version = "0.40.0"
-source = "git+https://github.com/nushell/reedline?branch=main#e4221b954ccc04940f3ed505ed4984d92fbe1f4c"
+source = "git+https://github.com/collinmurch/reedline?branch=main#c3861fe57c236205a8e783aabf3d22b1150e3cea"
 dependencies = [
  "arboard",
  "chrono",
@@ -8258,7 +8258,7 @@ version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf221c93e13a30d793f7645a0e7762c55d169dbb0a49671918a2319d289b10bb"
 dependencies = [
- "windows-sys 0.59.0",
+ "windows-sys 0.48.0",
 ]
 
 [[package]]
